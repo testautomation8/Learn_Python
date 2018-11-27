@@ -2,10 +2,11 @@
 of only the first and last elements of the given list. For practice, write this code inside a function."""
 
 def usrdef_List(inp_list):
-    fnl_list=[]
-    fnl_list.append(inp_list[0])
-    fnl_list.append(inp_list[len(inp_list)-1])
-    return fnl_list
+
+    #fnl_list=[]
+    #fnl_list.append(inp_list[0])
+    #fnl_list.append(inp_list[len(inp_list)-1])
+    return [inp_list[0],inp_list[-1]]
 
 a = [5, 10, 15, 20, 25]
 print(usrdef_List(a))
